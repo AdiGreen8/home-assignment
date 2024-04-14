@@ -20,7 +20,7 @@ const filterByMonth = (entries, year, month) => {
 };
 
 app.get('/data', (req, res) => {
-    const { date, year, month } = req.query;  // Extract parameters from query
+    const { date, year, month } = req.query; 
     console.log("Querying data for:", date, year, month);  // Log the requested parameters for debugging
 
     fs.readFile('data.json', (err, data) => {
