@@ -1,0 +1,59 @@
+.four-small-box {
+    grid-column: 1 / span 3; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    width: 80vw;
+}
+
+.line {
+    height: 2px;
+    padding: 0px;
+    background-color: #0000001b;
+    margin: 10px 0;
+}
+
+.alert {
+    width: 280px;        /* Square shape */
+    height: 150px;       /* Square shape */
+    background-color: rgba(255, 167, 167, 0.86); /* Red background */
+    color: black;        /* White text */
+    display: flex;
+    align-items: center;
+    border-radius: 15px; /* Slightly rounded corners */
+    position: fixed;     /* Fixed position */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -120%); /* Centering the box */
+    box-sizing: border-box;      /* Makes sure the alert appears on top */
+    transition: all 0.3s ease; /* Smooth transitions for showing/hiding */
+}
+
+.date-picker {
+    text-align: center;
+    font-size: 20px; 
+}
+
+.date-picker:hover {
+    cursor: pointer;
+}
+
+.small-box-container {
+    display: block;
+    text-align: left;
+    background-color:whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.249); 
+    border-radius: 6px; 
+    padding: 16px; 
+    margin: 15px;
+}
+
+h2 {
+    color: rgb(15, 80, 100);
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+
