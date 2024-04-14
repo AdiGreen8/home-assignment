@@ -3,7 +3,7 @@ const { test, expect } = require('@playwright/test');
 
 test('alert appears and disappears after specified time', async ({ page }) => {
     // Navigate to the page where the alert is implemented
-    await page.goto('http://localhost:3000');  // Update URL as needed
+    await page.goto('http://localhost:3000'); 
 
     // Click the datepicker.
     await page.locator('.react-datepicker__input-container').click();
