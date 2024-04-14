@@ -11,11 +11,15 @@ npm install
 ###### Intialize the DataFile
 node server.js
 
-###### Start the Server 
-npm start
-
-###### Run the frontend
+##### Run the frontend
+On a new Terminal
+###### Enter the app directory
 cd my-app
+
+###### Install react scripts
+npm install react-scripts --save
+
+###### Start the app
 npm start
 
 #### Api Endpoints
